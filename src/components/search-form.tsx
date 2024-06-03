@@ -46,7 +46,7 @@ function SearchFormComponent() {
 
 export function SearchForm() {
   return (
-    <Suspense>
+    <Suspense fallback={null}>
       <SearchFormComponent />
     </Suspense>
   )
